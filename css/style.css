@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'interregular';
+    src: url('../fonts/inter-regular-webfont.eot');
+    src: url('../fonts/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/inter-regular-webfont.woff2') format('woff2'),
+         url('../fonts/inter-regular-webfont.woff') format('woff'),
+         url('../fonts/inter-regular-webfont.ttf') format('truetype'),
+         url('../fonts/inter-regular-webfont.svg#interregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -41,4 +54,82 @@ my
 header nav ul li:hover{
     transform: rotate(360deg);
     transition: 0.3s;
+}
+.leftlist{    
+    list-style: none;
+}
+.leftlist li:before{
+    display: inline-flex;
+    justify-content: center;
+    content:"1";
+    background-color: black;    
+    margin-right: 24px; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+.leftlist li:before{ /*Number -1 Font-style*/
+    color: #EDE6DD;
+
+text-align: center;
+font-family: interregular;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+letter-spacing: 0.252px;
+}
+.leftlist li:nth-child(3):before{
+    display: inline-flex;
+    justify-content: center;
+    content:"2";
+    background-color: black;    
+    margin-right: 24px; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+.leftlist li:nth-child(3):before{ /*Number -2 Font-style*/
+    color: #EDE6DD;
+
+text-align: center;
+font-family: interregular;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+letter-spacing: 0.252px;
+}
+.leftlist li:nth-child(5):before{
+    display: inline-flex;
+    justify-content: center;
+    content:"3";
+    background-color: black;    
+    margin-right: 24px; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+}
+.leftlist li:nth-child(5):before{ /*Number -3 Font-style*/
+    color: #EDE6DD;
+
+    text-align: center;
+    font-family: interregular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    letter-spacing: 0.252px;
+}
+.leftlist li{ /* List font-stile */
+    color: #1E1928;
+    font-family: interregular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    letter-spacing: 0.252px;
 }
