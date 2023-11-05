@@ -177,6 +177,7 @@ letter-spacing: 0.252px;
 }
 .today{    
     margin:auto;
+    min-width: 600px;
 }
 /* }
 .todaylist{    
@@ -215,7 +216,8 @@ letter-spacing: 0.252px;
                         letter-spacing: 0.252px;
                     }
                     .stand{
-                        margin:auto;                        
+                        margin:auto;
+                        min-width: 600px;                        
                     }
                     /* .Standinglist{
                         margin-left: -573.80px;
@@ -251,6 +253,7 @@ line-height: 30px;
 letter-spacing: 0.252px;
 }
 .smartphone-block{
+ min-width: 600px;
  margin:auto;
 }
                     .block4{                    
