@@ -315,7 +315,8 @@ line-height: 42px; /* 131.25% */
     letter-spacing: 0.252px;
 }
 .Listen-block{
-    
+    min-width: 600px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
