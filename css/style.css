@@ -141,21 +141,24 @@ letter-spacing: 0.252px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 80px;
+    align-content: space-around;
     max-width: 1280px;
-    margin: auto;    
-    padding-top: 80px;
+        
+    padding: 80px 40px;
 }
 .block1{   
     display: flex;
-    align-items: center; 
+    min-width: 1200px;
+    align-items: center;
+    justify-content: center;
 }
 .built{
-    max-width: 600px;
-    max-height: 186px;
-    text-align: right;
-    align-content: space-between;  
+    
+    text-align: right; 
 }
 .built h3{   
+    margin-bottom: 24px;
     color: #1E1928;   
     font-family: Roboto;
     font-size: 32px;
@@ -173,27 +176,27 @@ letter-spacing: 0.252px;
     letter-spacing: 0.252px;
 }
 .today{    
-    display: flex;
-    align-items: center;    
+    margin:auto;
 }
+/* }
 .todaylist{    
-    margin-left: -404.85px;
-}
+ margin-left: -404.85px;
+} */
 
                     .block2{                    
                         display: flex;
+                        min-width: 1200px;
                         align-items: center;
-                        justify-content: center;                        
-                        padding-left: 26px;
-                        margin-bottom: 80px;
+                        justify-content: center;                
+                        
                     }
                     .Standing{
-                        max-width: 600px;
-                        margin-left: 29px;                        
+                        
+                        text-align: left;
+                        /* margin-left: 29px;*/
                     }
                     .Standing h3{
                         margin-bottom: 24px;
-                        text-align: left;
                         color: #1E1928;
                         font-family: Roboto;
                         font-size: 32px;
@@ -212,31 +215,26 @@ letter-spacing: 0.252px;
                         letter-spacing: 0.252px;
                     }
                     .stand{
-                        display: flex;                        
-                        align-items: center;
+                        margin:auto;                        
                     }
-                    .Standinglist{
+                    /* .Standinglist{
                         margin-left: -573.80px;
-                    }
+                    } */
                     
             
  .block3{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    min-width: 1200px;
+    align-items: center;
+    justify-content: center;
+
 }
 .Easily-track{
-max-width: 600px;
-/* display: flex;
-flex-direction: column;
-text-align: right; */
-padding-left: 13px;
-padding-bottom: 4px;
+    text-align: right;
 }
 .Easily-track h3{
 margin-bottom: 24px;
 color: #1E1928;                    
-text-align: right;
 font-family: Roboto;
 font-size: 32px;
 font-style: normal;
@@ -244,6 +242,67 @@ font-weight: 700;
 line-height: 42px;
 }
 .Easily-track p{
+color: rgba(30, 25, 40, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.252px;
+}
+.smartphone-block{
+ margin:auto;
+}
+                    .block4{                    
+                        display: flex;
+                        min-width: 1200px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .Paperwork{
+                        text-align: left;                                              
+                    }
+                    .Paperwork h4{
+                        margin-bottom: 24px;
+                        color: #1E1928;
+                        font-family: Roboto;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 42px; /* 131.25% */
+                    }
+                    .Paperwork p{
+                        color: rgba(30, 25, 40, 0.80);
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                        letter-spacing: 0.252px;
+                    }
+                    .Paper{
+                        min-width: 600px;
+                        margin: auto;
+                    }
+.block5{
+    display: flex;
+    min-width: 1200px;
+    align-items: center;
+    
+}
+.Listen-in{
+    text-align: right;
+}
+.Listen-in h4{
+margin-bottom: 24px;
+color: #1E1928;               
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+}
+.Listen-in p{
 color: rgba(30, 25, 40, 0.80);
 text-align: right;
 font-family: Inter;
@@ -253,7 +312,15 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.252px;
 }
-.smartphone-block{
- padding: auto;
+.Listen-block{
+    min-width: 600px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
 }
+.playclick{
+    
+    margin-left: -380px;
+}
+                    
                     
