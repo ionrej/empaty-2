@@ -147,7 +147,7 @@ letter-spacing: 0.252px;
         
     padding: 80px 40px;
 }
-.block1{   
+.container1{   
     display: flex;
     min-width: 1200px;
     align-items: center;
@@ -184,13 +184,13 @@ letter-spacing: 0.252px;
  margin-left: -404.85px;
 } */
 
-                    .block2{                    
+                    /* .block2{                    
                         display: flex;
                         min-width: 1200px;
                         align-items: center;
                         justify-content: space-around;                
                         
-                    }
+                    } */
                     .Standing{
                         
                         text-align: left;
@@ -224,13 +224,13 @@ letter-spacing: 0.252px;
                     } */
                     
             
- .block3{
+ /* .block3{
     display: flex;
     min-width: 1200px;
     align-items: center;
     justify-content: space-around;
 
-}
+} */
 .Easily-track{
     text-align: right;
 }
@@ -256,12 +256,12 @@ letter-spacing: 0.252px;
  min-width: 600px;
  margin:auto;
 }
-                    .block4{                    
+                    /* .block4{                    
                         display: flex;
                         min-width: 1200px;
                         align-items: center;
                         justify-content: space-around;
-                    }
+                    } */
                     .Paperwork{
                         text-align: left;                                              
                     }
@@ -286,13 +286,13 @@ letter-spacing: 0.252px;
                     .Paper{
                         min-width: 600px;
                     }
-.block5{
+/* .block5{
     display: flex;
     min-width: 1200px;
     align-items: center;
     justify-content: space-around;
     
-}
+} */
 .Listen-in{
     text-align: right;
 }
