@@ -151,7 +151,7 @@ letter-spacing: 0.252px;
     display: flex;
     min-width: 1200px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .built{
     
@@ -188,7 +188,7 @@ letter-spacing: 0.252px;
                         display: flex;
                         min-width: 1200px;
                         align-items: center;
-                        justify-content: center;                
+                        justify-content: space-around;                
                         
                     }
                     .Standing{
@@ -228,7 +228,7 @@ letter-spacing: 0.252px;
     display: flex;
     min-width: 1200px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .Easily-track{
@@ -260,7 +260,7 @@ letter-spacing: 0.252px;
                         display: flex;
                         min-width: 1200px;
                         align-items: center;
-                        justify-content: center;
+                        justify-content: space-around;
                     }
                     .Paperwork{
                         text-align: left;                                              
@@ -285,12 +285,12 @@ letter-spacing: 0.252px;
                     }
                     .Paper{
                         min-width: 600px;
-                        margin: auto;
                     }
 .block5{
     display: flex;
     min-width: 1200px;
     align-items: center;
+    justify-content: space-around;
     
 }
 .Listen-in{
@@ -298,32 +298,31 @@ letter-spacing: 0.252px;
 }
 .Listen-in h4{
 margin-bottom: 24px;
-color: #1E1928;               
+color: #1E1928;
 font-family: Roboto;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 42px;
+line-height: 42px; /* 131.25% */
 }
 .Listen-in p{
-color: rgba(30, 25, 40, 0.80);
-text-align: right;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.252px;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 176.471% */
+    letter-spacing: 0.252px;
 }
 .Listen-block{
-    min-width: 600px;
-    min-height: 600px;
+    
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.playclick{
+/* .playclick{
     
     margin-left: -380px;
-}
+} */
                     
                     
