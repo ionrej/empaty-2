@@ -14,301 +14,123 @@
     
    
 </head>
-<body style="background-color: #F4EFE9;">
-<header style="padding: 40px 0">
-    <div style="max-width: 1200px; margin: auto; display: flex; justify-content: space-between; margin-bottom: 80px;">
-        <a href="#">
+<body>
+<header>  <!-- Верхняя шапка с навигацией -->
+    <div class="container">  <!-- <Блок внутри шапки> --> 
+        <a href="#"><!-- Логотип "empaty" -->
             <img src="images/logo.svg" alt="logo">
         </a>
 
-        <nav>
-            <ul style="display: flex; list-style: none;">
-                <li style="margin-left: 40px;">
-                    <a href="#" style="
-                            text-decoration: none;
-                            color: #1E1928;
-                            font-family: Roboto,serif;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;">About</a>
+        <nav>  <!-- <Навигационная панель> -->
+            <ul id="my">  <!-- <Список НП> -->
+                <li  class="my_li_marginleft">
+                    <a href="#" class="item_link">About</a>
                 </li>
-                <li style="margin-left: 40px;">
-                    <a href="#" style="
-                            text-decoration: none;
-                            color: #1E1928;
-                            font-family: interregular;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;">Learn</a>
+                <li  class="my_li_marginleft">
+                    <a href="#" class="item_link">Learn</a>
                 </li>
-                <li style="margin-left: 40px;">
-                    <a href="#" style="
-                            text-decoration: none;
-                            color: #1E1928;
-                            font-family: interregular;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;">Partner</a>
-                </li style="margin-left: 40px;">
-                <li style="margin-left: 40px;">
-                    <a href="#" style="
-                            text-decoration: none;
-                            color: #1E1928;
-                            font-family: Inter;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;">COVID-19</a>
+                <li  class="my_li_marginleft">
+                    <a href="#" class="item_link">Partner</a>
                 </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+                <li class="my_li_marginleft">
+                    <a href="#" class="item_link">COVID-19</a>
+                </li>
+            </ul> <!-- <Список НП> -->
+        </nav>  <!-- <Навигационная панель> -->
+    </div>   <!-- <Блок внутри шапки> -->
+</header>   <!-- Верхняя шапка с навигацией -->
 <main >
-    
-    <section style="padding-bottom: 196px;">
-        <div style="
-                    max-width: 1200px; 
-                    margin: auto; 
-                    display: flex; 
-                    justify-content: space-between">
-            <article style="max-width: 549px;">
+    <!-- Первая секция -->
+    <section class="section-1">
+        <div class="container">
+            <article> <!-- Левый блок секции-1 с формой регистрации -->
                 
-                    <h1 style="color: #1E1928;
-
-                    font-family: Roboto;
-                    font-size: 48px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 58px;
-                    margin-bottom: 24px;">
-                        Losing a loved one <br> 
-                        is hard enough.
+                    <h1>
+                        Losing a loved one is hard enough.
                     </h1>
-                    <P style="
-                    margin-bottom: 4px;
-                    color: rgba(30, 25, 40, 0.80);
-
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 30px;
-                    letter-spacing: 0.252px;">
+                    <P>
                         Empathy is here to help you with everything that comes next.
-                    </p>
-                    <p style="
-                    margin-bottom: 24px;
-                    color: rgba(30, 25, 40, 0.80);
-
-                    font-family: interregular;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 30px;
-                    letter-spacing: 0.252px;">
+                    </P>
+                    <p>
                         We guide and support you along your journey of loss, giving <br>
                         you the tools to navigate and prioritize every task.
                     </p>
-                    <p style="
-                    color: #1E1928;
-
-                    font-family: interregular;
-                    font-size: 17px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 30px;
-                    letter-spacing: 0.252px;">
+                    <p>
                         Try it for free:
                     </p>
-                    <form action="" method="" style="
-                    border-radius: 9999px; 
-                    background: #FFF; 
-                    padding: 8px 12px; 
-                    display: flex; 
-                    max-width: 448px; 
-                    justify-content: space-between;">
-                        <input style="
-                            width: 180px;
-                            border: none;
-                            background-color: transparent;
-                            padding: 10px 19px;
-                            color: rgba(30, 25, 40, 1);
-                            text-align: center;
-                            font-family: interregular;
-                            font-size: 14px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;"
-                            type="number" placeholder="(222) 123-4512">
-                        <button 
-                        style="
-                        padding: 10px 32px;
-                        border-radius: 9999px;
-                        background: #1E1928;
-                        color: #F4EFE9;
-                        font-family: interregular;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400px;
-                        line-height: 20px;"
-                        type="submit"> 
+                    <!-- Форма для регистрации -->
+                    <form action="" method="" class="form-block">
+                        <input type="number" placeholder="(222) 123-4512"> <!-- Поле ввода номера тел. -->
+                        <button type="submit"> <!-- Кнопка отправки -->
                         Text me the App
-                        </button>
-
-                    </form>
-            </article>
+                        </button> <!-- Кнопка отправки -->
+                    </form><!-- Форма для регистрации -->
+            </article>  <!-- Левый блок секции-1 с формой регистрации -->
             
-            <div style="max-width: 564px;">
+            <div  > <!-- Правый блок секции-1 с изображением -->
                 <img src="images/fam.png" alt="img"
                 style="
                 display: block; 
                 width: 100%;">
             </div>
         </div>
-    </section>
+    </section> <!-- Первая секция -->
        <!-- Вторая секция -->
-       <section style="
-                        padding-top: 270px; 
-                        padding-bottom: 78px; 
-                        background-color: #FFD394;
-                        background-image: url('images/serybely.png');
-                        background-position: bottom -241px left 220px;
-                        background-repeat: no-repeat;
-                        position: relative;">
+    <section class="section-2">
                         
-                        <!--Белый блок -->
-            <div class="freeblock" style="
-                    border-radius: 8px;
-                    text-align: center;
-                    max-width: 1200px;
-                    width: 100%;
-                    padding: 80px 80px;
-                    background: #fff;                    
-                    position: absolute;
-                    top: -190px;
-                    left: calc(50% - 600px);">
-                 <div class="relief">  
-                    <h2 style="
-                                    color: #1E1928;    
-                                    text-align: center;
-                                    font-family: Roboto;
-                                    font-size: 32px;
-                                    font-style: normal;
-                                    font-weight: 400;
-                                    line-height: 42px;">
-                        Relief is near.
-                    </h2>
-                        <p style="      margin-top: 28px;
-                                        margin-bottom: 20px;
-                                        color: rgba(30, 25, 40, 0.80);    
-                                        text-align: center;
-                                        font-family: Inter;
-                                        font-size: 18px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: 30px;
-                                        letter-spacing: 0.252px;">
-                        Empathy was created by a team of software developers, estate lawyers,
-                        designers, and grief experts who came together with the goal of helping
+                <!--Белый блок -->
+            <div class="freeblock">
+                
+                   <!-- Контент белого блока -->
+                    <h2>Relief is near.</h2>
+                        <p>
+                        Empathy was created by a team of software developers, estate lawyers,<br>
+                        designers, and grief experts who came together with the goal of helping<br>
                         you and your family better cope with the many aspects of loss.
                         </p>
-                                                <!-- Ссылка в виде кнопки -->
-                                            <a href="#" 
-                                            style="
-                                            text-decoration: none;                                           
-                                            padding: 10px 33px;
-                                            border: 1px solid #1E1928;
-                                            border-radius: 9999px;
-                                            background: #FFFFFF;color: #1E1928;    
-                                            text-align: center;
-                                            font-family: Inter;
-                                            font-size: 14px;
-                                            font-style: normal;
-                                            font-weight: 400;
-                                            line-height: 20px;">
-                                            Learn More
-                                            </a><!-- Ссылка в виде кнопки -->
-                            
-                            
-                </div>
+                             <!-- Ссылка в виде кнопки -->
+                            <a href="#">
+                                Learn More
+                            </a><!-- Ссылка в виде кнопки -->                   
+                            <!-- Контент белого блока -->                           
             </div><!--Белый блок -->
             
-            <!-- Список -->
-        <div style="    max-width: 1200px;
-                        margin: auto;
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 0px 40px">
-
-            <h2 style="         color: #1E1928;
-                                font-family: Roboto;
-                                font-size: 48px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 58px;">
-                    How it works
+            
+        <div class="container">
+            
+            <h2>
+                How it works
             </h2>
-            <ul class="leftlist">
-                    <li>
-                        Download the app.
-                        <p style="
-                                        margin-top: 4px;
-                                        margin-left: 64px;
-                                        margin-bottom: 38px;
-                                        color: rgba(30, 25, 40, 0.80);
-                                        font-family: interregular;
-                                        font-size: 16px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: 24px;
-                                        letter-spacing: 0.176px;">
-                        Download Empathy to your iPhone or
-                        Android device. Sign up to<br> get started.
-                        </p>
-                    </li>
+            <!-- Правый список -->
+            <ul class="rightlist">
+                <li>
+                    Download the app.
+                    <p class="first-paragraph">
+                    Download Empathy to your iPhone or
+                    Android device. Sign up to<br> get started.
+                    </p>
+                </li>
 
-                    <li>Personalize your journey.
-                        <p style="
-                                        margin-top: 4px;
-                                        margin-left: 64px;
-                                        margin-bottom: 38px;
-                                        color: rgba(30, 25, 40, 0.80);
-                                        font-family: interregular;
-                                        font-size: 14px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: 24px;
-                                        letter-spacing: 0.176px;">
-                        Every family and every
-                        situation is unique. We'll ask you a few questions
-                        <br>about your loved one to tailor our guidance
-                        to your specific needs.
-                        </p>
-                    </li>
+                <li>Personalize your journey.
+                    <p class="second-paragraph">
+                    Every family and every
+                    situation is unique. We'll ask you a few questions
+                    <br>about your loved one to tailor our guidance
+                    to your specific needs.
+                    </p>
+                </li>
 
 
-                    <li>Get comprehensive guidance and support.
-                        <p style="      margin-top: 4px;
-                                        margin-left: 64px;
-                                        color: rgba(30, 25, 40, 0.80);
-                                        font-family: interregular;
-                                        font-size: 16px;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        line-height: 24px;
-                                        letter-spacing: 0.176px;">
-                        We are here to help
-                        you navigate any task, with all the digital
-                        <br>tools, expert advice, and real-time
-                        assistance you need.
-                        </p>
-                    </li>
-            </ul>
-        </div><!-- Список -->
+                <li>Get comprehensive guidance and support.
+                    <p class="third-paragraph">
+                    We are here to help
+                    you navigate any task, with all the digital
+                    <br>tools, expert advice, and real-time
+                    assistance you need.
+                    </p>
+                </li>
+        </ul><!-- Правый список -->
+    </div><!-- Список -->
 
         
     </section> <!-- Вторая секция -->
