@@ -133,7 +133,7 @@ letter-spacing: 0.252px;
     letter-spacing: 0.252px;
 }
 .relief{
-    max-width: 672px;
+    min-width: 672px;
     margin: auto;
 }
 
@@ -181,7 +181,7 @@ letter-spacing: 0.252px;
     letter-spacing: 0.252px;
 }
 .today{    
-    margin:auto;
+    
     min-width: 600px;
 }
 
@@ -222,7 +222,7 @@ letter-spacing: 0.252px;
                         letter-spacing: 0.252px;
                     }
                     .stand{
-                        margin:auto;
+                        
                         min-width: 600px;                        
                     }
                     /* .Standinglist{
@@ -260,7 +260,7 @@ letter-spacing: 0.252px;
 }
 .smartphone-block{
 min-width: 600px;
-margin:auto;
+
 }
                     /* .block4{                    
                         display: flex;
@@ -332,7 +332,7 @@ line-height: 42px; /* 131.25% */
 
 .mazeh4{
     color: #1E1928;
-    text-align: center;
+    
     /* Шрифт */
     font-family: Inter;
     font-size: 17px;
@@ -342,6 +342,8 @@ line-height: 42px; /* 131.25% */
     letter-spacing: 0.252px;
 }
 .icons-block{
+    display: flex;
+    justify-content: space-between;
     margin:80px 0px;
 } 
 .See_Full_Library{
@@ -360,12 +362,10 @@ line-height: 42px; /* 131.25% */
     font-weight: 400;
     line-height: 20px; 
 }
-.section-5{
-    margin: auto;
-    background-color: #592141;
-    padding: 305px 184px;
+.section-5{    
+    padding: 305px 0px;
+    background-color: #592141;    
     position: relative;
-
 }
 
 .users{
