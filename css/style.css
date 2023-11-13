@@ -526,11 +526,8 @@ line-height: 42px; /* 131.25% */
     justify-content: center;
 }
 .section-4{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;   
-    justify-content: space-around;
-    align-items: center;
+    background: #F4EFE9;
+    text-align: center;
     padding: 144px 0px 302px 0px;
     }
 

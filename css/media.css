@@ -1,0 +1,12 @@
+@media screen and (min-width: 469px) {
+  
+  .container{    
+    min-width: 432px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;    
+}
+.my_li_marginleft{
+  margin-left: 10px;
+}
+}
