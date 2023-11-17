@@ -1,12 +1,253 @@
-@media screen and (min-width: 469px) {
+@media screen and (max-width: 431px) {
+
+
+.container{
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+header .container{ 
   
-  .container{    
-    min-width: 432px;
-    margin: auto; 
-    display: flex;
-    justify-content: space-between;    
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  /* margin-bottom: 80px; */
+}/* Верхний и нижний отступы в шапке */
+
+/* Блок-список НП */
+.navig{
+  padding-top: 10px;
+}         
+
+
+
+/* Первая секция */
+.section-1{
+  padding-bottom: 110px;
+  padding-top: 20px;
+  position: relative;
+  }
+/* Левый блок секции с формой регистрации */
+
+.hard_enough{
+  max-width: 430px;
+  text-align: justify;
 }
-.my_li_marginleft{
-  margin-left: 10px;
+.form-block{
+  position: absolute;
+  bottom: 25px;
 }
+.tryitforfree{
+  position: absolute;
+  bottom: 90px;
+  z-index: 1;
 }
+/* .imagefam{
+  display:none;   
+} */
+/* Заголовок */
+.section-1 .hard_enough h1{ 
+                  color: #1E1928;
+                  font-family: Roboto;
+                  font-size: 26px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 58px;
+                  margin-bottom: 15px;
+}/* Заголовок */
+
+.section-1 .hard_enough p{
+                  margin-bottom: 15px;
+
+                  color: rgba(30, 25, 40, 0.80);
+                  font-family: Inter;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 200;
+                  line-height: 20px;
+                  letter-spacing: 0.252px;
+}
+.section-1 .hard_enough p:nth-child(3){
+margin-bottom: 24px;
+}
+/* Try it for free */
+
+/* Форма для регистрации */
+.form-block{
+                  border-radius: 9999px; 
+                  background: #FFF; 
+                  padding: 8px 12px; 
+                  display: flex; 
+                  max-width: 448px; 
+                  justify-content: space-between;
+}
+/* Поле ввода номера тел. */
+
+                  /* Форма для регистрации */
+/* Правый блок секции-1 с изображением */
+.section-2{
+  display: flex;
+    
+  flex-direction: column;
+  padding-top: unset; 
+  padding-bottom: unset; 
+  background-color: #FFD394;
+  background-image: unset;
+  }  
+/* Белый блок  */
+.freeblock{
+  padding: 25px 5px;
+  border-radius: unset;
+  background: #fff;                    
+  position: unset;
+  top: unset;
+  left:unset;    
+}
+/* Контент белого блока */
+  
+ 
+  .freeblock p{
+    padding: 15px;
+    text-align: justify;
+    width: 100%;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   /* Контент белого блока */
+/* Белый блок  */
+/* Правый список */
+.how-it{  
+  
+  
+  display: unset;
+  justify-content: unset; 
+}
+.rightlist{
+  llist-style: none;
+  margin-bottom: 42px;
+  max-width: 566px;
+  
+}
+.how-it h2{
+  color: #1E1928;    
+  text-align: unset;
+  
+    
+}
+
+.first-paragraph{
+  max-width: 500px;
+  margin-top: 4px;
+  margin-left: 64px;
+  margin-bottom: 38px;
+  color: rgba(30, 25, 40, 0.80);
+  font-family: interregular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;   
+}
+.second-paragraph{
+  margin-top: 4px;
+  margin-left: 64px;
+  margin-bottom: 38px;
+  color: rgba(30, 25, 40, 0.80);
+  font-family: interregular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;   
+}
+.third-paragraph{
+  margin-top: 4px;
+  margin-left: 64px;
+  color: rgba(30, 25, 40, 0.80);
+  font-family: interregular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;   
+}
+.rightlist li{ /* List's font-stile */
+  color: #1E1928;
+  font-family: interregular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  letter-spacing: 0.252px;
+}
+
+
+.rightlist li:before{
+  display: inline-flex;
+  justify-content: center;
+  content:"1";
+  background-color: black;    
+  margin-right: 20px; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+}
+.rightlist li:before{ /*Number -1 Font-style*/
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.252px;
+}
+.rightlist li:nth-child(2):before{
+  display: inline-flex;
+  justify-content: center;
+  content:"2";
+  background-color: black;    
+  margin-right: 24px; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+}
+.rightlist li:nth-child(2):before{ /*Number -2 Font-style*/
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  letter-spacing: 0.252px;
+}
+.rightlist li:nth-child(3):before{
+  display: inline-flex;
+  justify-content: center;
+  content:"3";
+  background-color: black;    
+  margin-right: 24px; 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+}
+.rightlist li:nth-child(3):before{ /*Number -3 Font-style*/
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  letter-spacing: 0.252px;
+}/* Правый список */
+
+/* Вторая секция */

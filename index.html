@@ -6,11 +6,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
     <title>My first project</title>
     
    
@@ -22,7 +23,7 @@
             <img src="images/logo.svg" alt="logo">
         </a>
 
-        <nav>  <!-- <Навигационная панель> -->
+        <nav class="navig">  <!-- <Навигационная панель> -->
             <ul id="my">  <!-- <Список НП> -->
                 <li  class="my_li_marginleft">
                     <a href="#" class="item_link">About</a>
@@ -44,7 +45,7 @@
     <!-- Первая секция -->
     <section class="section-1">
         <div class="container">
-            <article> <!-- Левый блок секции-1 с формой регистрации -->
+            <article class="hard_enough"> <!-- Левый блок секции-1 с формой регистрации -->
                 
                     <h1>
                         Losing a loved one is hard enough.
@@ -52,27 +53,24 @@
                     <P>
                         Empathy is here to help you with everything that comes next.
                     </P>
-                    <p>
-                        We guide and support you along your journey of loss, giving <br>
+                    <p >
+                        We guide and support you along your journey of loss, giving
                         you the tools to navigate and prioritize every task.
                     </p>
-                    <p>
+                    <p class="tryitforfree">
                         Try it for free:
                     </p>
                     <!-- Форма для регистрации -->
                     <form action="" method="" class="form-block">
                         <input type="number" placeholder="(222) 123-4512"> <!-- Поле ввода номера тел. -->
-                        <button type="submit"> <!-- Кнопка отправки -->
+                        <button class="textme" type="submit"> <!-- Кнопка отправки -->
                         Text me the App
                         </button> <!-- Кнопка отправки -->
                     </form><!-- Форма для регистрации -->
             </article>  <!-- Левый блок секции-1 с формой регистрации -->
             
             <div  > <!-- Правый блок секции-1 с изображением -->
-                <img src="images/fam.png" alt="img"
-                style="
-                display: block; 
-                width: 100%;">
+                <img class="imagefam" src="images/fam.png" alt="img">
             </div>
         </div>
     </section> <!-- Первая секция -->
@@ -85,8 +83,8 @@
                    <!-- Контент белого блока -->
                     <h2>Relief is near.</h2>
                         <p>
-                        Empathy was created by a team of software developers, estate lawyers,<br>
-                        designers, and grief experts who came together with the goal of helping<br>
+                        Empathy was created by a team of software developers, estate lawyers,
+                        designers, and grief experts who came together with the goal of helping
                         you and your family better cope with the many aspects of loss.
                         </p>
                              <!-- Ссылка в виде кнопки -->
@@ -97,7 +95,7 @@
             </div><!--Белый блок -->
             
             
-        <div class="container">
+        <div class="how-it">
             
             <h2>
                 How it works
@@ -108,7 +106,7 @@
                     Download the app.
                     <p class="first-paragraph">
                     Download Empathy to your iPhone or
-                    Android device. Sign up to<br> get started.
+                    Android device. Sign up to get started.
                     </p>
                 </li>
 
@@ -116,7 +114,7 @@
                     <p class="second-paragraph">
                     Every family and every
                     situation is unique. We'll ask you a few questions
-                    <br>about your loved one to tailor our guidance
+                    about your loved one to tailor our guidance
                     to your specific needs.
                     </p>
                 </li>
@@ -126,7 +124,7 @@
                     <p class="third-paragraph">
                     We are here to help
                     you navigate any task, with all the digital
-                    <br>tools, expert advice, and real-time
+                    tools, expert advice, and real-time
                     assistance you need.
                     </p>
                 </li>

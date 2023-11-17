@@ -41,10 +41,9 @@ header{
 #my{
     display: flex; 
     list-style: none;
+    gap: 40px;
 }
-.my_li_marginleft{
-    margin-left: 40px;
-}
+
 .item_link{  /* Шрифт списка в НП */
     text-decoration: none;
     color: #1E1928;
@@ -68,11 +67,15 @@ header nav ul li:hover{
     padding-top: 80px;
 }
 /* Левый блок секции с формой регистрации */
-.section-1 article{
+.section-1 hard_enough{
     max-width: 549px;
 }
+.imagefam{
+    display: block; 
+    width: 100%;   
+}
 /* Заголовок */
-.section-1 article h1{ 
+.section-1 .hard_enough h1{ 
                     color: #1E1928;
                     font-family: Roboto;
                     font-size: 48px;
@@ -82,7 +85,7 @@ header nav ul li:hover{
                     margin-bottom: 24px;
 }/* Заголовок */
 
-.section-1 article p{
+.section-1 .hard_enough p{
                     margin-bottom: 4px;
 
                     color: rgba(30, 25, 40, 0.80);
@@ -93,7 +96,7 @@ header nav ul li:hover{
                     line-height: 30px;
                     letter-spacing: 0.252px;
 }
-.section-1 article p:nth-child(3){
+.section-1 .hard_enough p:nth-child(3){max-width: 549px;
                     margin-bottom: 24px;
 
                     color: rgba(30, 25, 40, 0.80);
@@ -105,7 +108,7 @@ header nav ul li:hover{
                     letter-spacing: 0.252px;
 }
 /* Try it for free */
-.section-1 article p:nth-child(4){
+.section-1 .hard_enough p:nth-child(4){
                     color: #1E1928;
                     font-family: interregular;
                     font-size: 17px;
@@ -155,28 +158,32 @@ header nav ul li:hover{
 }
 /* Вторая секция */
 .section-2{
+    display: flex;
+    
+    justify-content: center;
     padding-top: 270px; 
     padding-bottom: 44px; 
     background-color: #FFD394;
-    background-image: url('images/serybely.png');
-    background-position: bottom -241px left 220px;
+    background-image: url('../images/serybely.png');
+    background-position: bottom -241px left 0px;
     background-repeat: no-repeat;
     position: relative;
 }  
 /* Белый блок  */
-.freeblock{
-    border-radius: 8px;
-    text-align: center;
+.freeblock{display: flex;
+    align-items: center;
+    flex-direction: column;
     max-width: 1200px;
+    border-radius: 8px;
     width: 100%;
-    padding: 80px 72px;
+    padding: 80px 0px;
     background: #fff;                    
     position: absolute;
     top: -190px;
     left: calc(50% - 600px);    
 }
  /* Контент белого блока */
-    .freeblock h2{
+    .how-it h2{
         color: #1E1928;    
         text-align: center;
         font-family: Roboto;
@@ -186,8 +193,9 @@ header nav ul li:hover{
         line-height: 42px;   
     }
    
-    .freeblock p{
-        margin-top: 28px;
+    .freeblock p{max-width: 653px;
+        margin: auto;
+        
         margin-bottom: 28px;
         color: rgba(30, 25, 40, 0.80);    
         text-align: center;
@@ -224,10 +232,16 @@ header nav ul li:hover{
     line-height: 58px;   
 }
 /* Правый список */
-
+.how-it{  
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
 .rightlist{ 
     list-style: none;
     margin-bottom: 42px;
+    max-width: 566px;
 }
 .first-paragraph{
     margin-top: 4px;
