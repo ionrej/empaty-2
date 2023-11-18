@@ -246,7 +246,7 @@ header nav ul li:hover{
 .first-paragraph{
     margin-top: 4px;
     margin-left: 64px;
-    margin-bottom: 38px;
+    margin-bottom: 32px;
     color: rgba(30, 25, 40, 0.80);
     font-family: interregular;
     font-size: 16px;
@@ -299,8 +299,7 @@ header nav ul li:hover{
     height: 40px;
     border-radius: 50%;
     align-items: center;
-}
-.rightlist li:before{ /*Number -1 Font-style*/
+     /*Number -1 Font-style*/
     color: #EDE6DD;
     text-align: center;
     font-family: interregular;
@@ -320,8 +319,7 @@ header nav ul li:hover{
     height: 40px;
     border-radius: 50%;
     align-items: center;
-}
-.rightlist li:nth-child(2):before{ /*Number -2 Font-style*/
+     /*Number -2 Font-style*/
     color: #EDE6DD;
     text-align: center;
     font-family: interregular;
@@ -341,8 +339,7 @@ header nav ul li:hover{
     height: 40px;
     border-radius: 50%;
     align-items: center;
-}
-.rightlist li:nth-child(3):before{ /*Number -3 Font-style*/
+        /*Number -3 Font-style*/
     color: #EDE6DD;
     text-align: center;
     font-family: interregular;
