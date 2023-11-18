@@ -108,7 +108,7 @@ margin-bottom: 24px;
 }
 /* Контент белого блока */
   
- 
+
   .freeblock p{
     padding: 15px;
     text-align: justify;
@@ -121,133 +121,205 @@ margin-bottom: 24px;
 /* Белый блок  */
 /* Правый список */
 .how-it{  
-  
-  
   display: unset;
-  justify-content: unset; 
+  justify-content: unset;
+  padding-right: 15px; 
 }
 .rightlist{
   llist-style: none;
   margin-bottom: 42px;
   max-width: 566px;
-  
 }
 .how-it h2{
-  color: #1E1928;    
-  text-align: unset;
-  
-    
+color: #1E1928;    
+text-align: unset; 
 }
 
 .first-paragraph{
-  max-width: 500px;
-  margin-top: 4px;
-  margin-left: 64px;
-  margin-bottom: 38px;
-  color: rgba(30, 25, 40, 0.80);
-  font-family: interregular;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.176px;   
+max-width: 500px;
+font-size: 15px;
 }
 .second-paragraph{
-  margin-top: 4px;
-  margin-left: 64px;
-  margin-bottom: 38px;
-  color: rgba(30, 25, 40, 0.80);
-  font-family: interregular;
+
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.176px;   
 }
 .third-paragraph{
-  margin-top: 4px;
-  margin-left: 64px;
-  color: rgba(30, 25, 40, 0.80);
-  font-family: interregular;
+
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.176px;   
 }
 .rightlist li{ /* List's font-stile */
-  color: #1E1928;
-  font-family: interregular;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 26px; 
-  letter-spacing: 0.252px;
+font-size: 16px;
 }
 
 
-.rightlist li:before{
-  display: inline-flex;
-  justify-content: center;
-  content:"1";
-  background-color: black;    
-  margin-right: 20px; 
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-}
+
 .rightlist li:before{ /*Number -1 Font-style*/
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 144.444% */
-  letter-spacing: 0.252px;
 }
-.rightlist li:nth-child(2):before{
-  display: inline-flex;
-  justify-content: center;
-  content:"2";
-  background-color: black;    
-  margin-right: 24px; 
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-}
+
 .rightlist li:nth-child(2):before{ /*Number -2 Font-style*/
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
+ 
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; 
-  letter-spacing: 0.252px;
-}
-.rightlist li:nth-child(3):before{
-  display: inline-flex;
-  justify-content: center;
-  content:"3";
-  background-color: black;    
-  margin-right: 24px; 
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-}
+ }
+
 .rightlist li:nth-child(3):before{ /*Number -3 Font-style*/
   color: #EDE6DD;
   text-align: center;
-  font-family: interregular;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; 
-  letter-spacing: 0.252px;
-}/* Правый список */
+ }/* Правый список */
 
 /* Вторая секция */
+/* <!-- 3-Большая секция --> */
+.container1{
+  display: unset;
+  align-items: unset;
+  justify-content: unset;
+}
+.block0{
+  gap: 20px;
+  width: 100%;
+  padding: 0 0px;
+}
+/* <!-- 1 блок в секции --> */
+.today, .Paper, .stand, .smartphone3, .Listen-block{
+  display: none; 
+}
+.built{
+  padding: 15px;    
+  text-align: center; 
+}
+/* .today{
+  display: none;
+} */
+/* <!-- 1 блок в секции --> */
+/* <!-- 2 блок в секции --> */
+.Standing{
+      
+  text-align: unset; 
+  text-align: center;
+}
+.Standing p{
+  text-align: unset;
+  padding: 0 15px;}
+/* .stand{
+  display: none; 
+} */
+/* <!-- 2 блок в секции --> */
+/* <!-- 3 блок в секции --> */
+.Easily-track{
+  padding: 15px;    
+  text-align: center; 
+}
+/* .smartphone3{
+display: none;
+} */
+/* <!-- 3 блок в секции --> */
+.Paperwork{
+  padding: 15px;    
+  text-align: center; 
+}
+/* .Paper{
+  display: none;
+} */
+.Listen-in{
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  text-align: center;
+  
+}
+.longsection{
+  margin-bottom: 0px;
+}
+.play2, .play{
+  display: unset;
+}
+/* .playclick{
+  display: none;
+} */
+/* <!-- 3-Большая секция --> */
+/* <!-- 4 секция --> */
+.section-4{
+  background: #F4EFE9;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  }
+.mazeh4{
+  margin-bottom: 15px;
+}
+.icons-block{
+  display: unset;
+  
+  padding: unset;
+    
+  margin: 20px 0px;
+  
+  
+}
+
+.icon9{
+  
+  align-items: center;
+  border-radius: 8px;
+  
+  text-align: center;
+  width: 310px;
+  height: 160px;
+  background-color: #FFFFFF;
+}
+.See_Full_Library{
+  margin-top: 10px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  color: #FFFFFF;
+  
+border-radius: 8px;
+background: #1E1928
+}
+
+
+
+/* <!-- 4 секция --> */
+/* <!-- 5 секция --> */
+.section-5{
+  display: flex;    
+  flex-direction: column;
+  padding-top: unset; 
+  padding-bottom: unset; 
+  background-image: unset;
+  }  
+/* Белый блок  */
+.whiteblock2{
+  padding: 25px 5px;
+  border-radius: unset;
+  position: unset;
+  top: unset;
+  left:unset;    
+}
+.whiteblock2{
+  padding: 15px 15px 20px 15px;
+}
+.Users_block{
+  padding: 15px ;
+  width: 100%;
+  margin: auto;
+  }
+  .users{
+  font-size: 24px;}
+  .users:after{
+    width: 31px;
+    height: 44px;
+    padding-top: 8px;
+  }
+  .roger{
+  margin-top: 15px;
+  }
+  .feel{
+    font-size: 20px;
+  }
+}
+/* <!-- 5 секция --> */
