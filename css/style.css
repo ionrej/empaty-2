@@ -654,7 +654,7 @@ letter-spacing: 0.252px;
  /* Карусель */
 
     
-.icons-block.owl-carousel.owl-drag .owl-item{
+.icons-block.owl-carousel.owl-drag.owl-loaded .owl-item{
     text-align: center;
     display: flex;
     justify-content: center;
