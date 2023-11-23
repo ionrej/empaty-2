@@ -536,7 +536,8 @@ line-height: 42px; /* 131.25% */
     
 } 
 .icons-block img{
-    max-width: 144px;  
+    width: 144px;
+    height: 160px; 
 }
 .See_Full_Library{
     text-decoration: none;
