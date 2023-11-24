@@ -659,3 +659,41 @@ letter-spacing: 0.252px;
     display: flex;
     justify-content: center;
 }
+
+.faq{
+    padding: 100px;
+    background-color: #FFFFFF;
+}
+.faq .container h4{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+}
+
+.faq .container{
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    }
+.faq .ui-accordion .ui-accordion-header{
+background-color: white;
+border: solid 2px black;
+padding: 15px;
+border-radius: 20px;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    color: black;
+    border-top: 2px solid black;
+    border-radius: 20px 20px 0 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 0px solid black;
+}
+.faq .ui-accordion .ui-widget-content{
+    border-radius: 0px 0px 20px 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
