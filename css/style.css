@@ -704,12 +704,12 @@ border-radius: 20px;
 }
 .faq .ui-accordion .ui-accordion-content.ui-widget-content{
     background-color: #F4EFE9;}
-.faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(2){
+/* .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(2){
 max-height: 150px;
-}
-.faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(3){
+} */
+.faq .ui-accordion .ui-accordion-content.ui-widget-content p{
     
- margin-bottom: 10px;
+ margin-bottom: 5px;
     
     }
 .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(4){
@@ -728,5 +728,5 @@ letter-spacing: 0.252px;
 }
 
 .element.style {
-    heihgt: auto;
+    min-height: 150px;
 }
