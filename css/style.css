@@ -739,7 +739,7 @@ min-height: 150px;
 background-image: none;
 }
 
-.ui-icon, .ui-widget-content, .ui-icon{
+.ui-icon, .ui-widget-content, .ui-icon span{
 background-image: none;
 }
 .faq .ui-accordion .ui-accordion-header:before{
@@ -766,8 +766,8 @@ background-image: none;
     position: absolute;
     right: 15px;
 }
-.faq .ui-accordion .ui-accordion-header-active:hover{
-
+.faq .ui-accordion .ui-icon-triangle-1-e{
+background-image: none;
 }
 /* .faq .ui-accordion .ui-accordion-header .ui-icon:before{
     display: inline-flex;    
