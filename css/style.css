@@ -682,9 +682,16 @@ background-color: white;
 border: solid 2px black;
 padding: 15px;
 border-radius: 20px;
+color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.252px;
 }
 .faq .ui-accordion .ui-accordion-header{
-    text-align: right;
+    /* text-align: right; */
     
 }
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
@@ -703,30 +710,56 @@ border-radius: 20px;
     border-bottom: 2px solid black;
 }
 .faq .ui-accordion .ui-accordion-content.ui-widget-content{
-    background-color: #F4EFE9;}
-/* .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(2){
-max-height: 150px;
-} */
-.faq .ui-accordion .ui-accordion-content.ui-widget-content p{
-    
- margin-bottom: 5px;
-    
+    background-color: #F4EFE9;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.252px;
+}
+.faq .ui-accordion h3{
+
+}
+
+.faq .ui-accordion .ui-accordion-content.ui-widget-content-active p{    
+margin-bottom: 5px;    
     }
 .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(4){
-max-height: 120px;
-    
-    }
-.ui-widget{
-color: rgba(30, 25, 40, 0.80);
-
-font-family: Inter;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 176.471% */
-letter-spacing: 0.252px;
+max-height: 120px;    
+}
+.faq .ui-widget{
 }
 
 .element.style {
-    min-height: 150px;
+min-height: 150px;
 }
+.ui-state-active .ui-icon{
+background-image: none;
+}
+
+.ui-icon, .ui-widget-content, .ui-icon{
+background-image: none;
+}
+.faq .ui-accordion .ui-accordion-header:before{
+    display: inline-flex;
+    
+    content:"";
+    background-image: url('../images/expand.svg');
+    background-repeat: no-repeat;
+
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    
+}
+.faq .ui-accordion .ui-accordion-header-active:before{
+    display: inline-flex;
+    content:"";
+    background-image: none; 
+}
+/* .faq .ui-accordion.ui-accordion-content-active{
+    height: auto;
+} */
