@@ -753,13 +753,31 @@ background-image: none;
     width: 40px;
     position: absolute;
     right: 15px;
-    
 }
 .faq .ui-accordion .ui-accordion-header-active:before{
     display: inline-flex;
     content:"";
-    background-image: none; 
+    transform: rotate(360deg);
+    transition: 0.3s;
+    background-image: url('../images/expand0.svg');
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
 }
-/* .faq .ui-accordion.ui-accordion-content-active{
-    height: auto;
+.faq .ui-accordion .ui-accordion-header-active:hover{
+
+}
+/* .faq .ui-accordion .ui-accordion-header .ui-icon:before{
+    display: inline-flex;    
+    content:"V";
+    background-image: url('../images/expand.svg');
+    background-repeat: no-repeat;
+    color: black;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 15px;
+    z-index: 6;
 } */
