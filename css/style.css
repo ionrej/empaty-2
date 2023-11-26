@@ -683,13 +683,10 @@ border: solid 2px black;
 padding: 15px;
 border-radius: 20px;
 }
-<<<<<<< HEAD
 .faq .ui-accordion .ui-accordion-header{
     text-align: right;
     
 }
-=======
->>>>>>> 2e54e07f50cf24c5a1ee4f93407d4bddf4540c73
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
     color: black;
     border-top: 2px solid black;
@@ -697,10 +694,7 @@ border-radius: 20px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-bottom: 0px solid black;
-<<<<<<< HEAD
     background-color: #F4EFE9;
-=======
->>>>>>> 2e54e07f50cf24c5a1ee4f93407d4bddf4540c73
 }
 .faq .ui-accordion .ui-widget-content{
     border-radius: 0px 0px 20px 20px;
@@ -708,7 +702,6 @@ border-radius: 20px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
-<<<<<<< HEAD
 .faq .ui-accordion .ui-accordion-content.ui-widget-content{
     background-color: #F4EFE9;}
 .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(2){
@@ -735,5 +728,3 @@ letter-spacing: 0.252px;
 }
 
 
-=======
->>>>>>> 2e54e07f50cf24c5a1ee4f93407d4bddf4540c73
