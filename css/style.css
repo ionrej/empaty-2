@@ -727,4 +727,6 @@ line-height: 30px; /* 176.471% */
 letter-spacing: 0.252px;
 }
 
-
+.element.style {
+    heihgt: auto;
+}
