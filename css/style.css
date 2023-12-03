@@ -27,6 +27,12 @@ body{
     justify-content: space-between; 
     
 }
+.header_content{
+    max-width: 1200px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+}
  /* Универсальное свойство блока */
 
  /* Шапка */
@@ -36,15 +42,17 @@ header{
     padding: 40px 0;
     /* margin-bottom: 80px; */
 }/* Верхний и нижний отступы в шапке */
-            
+.logo{
+    z-index: 100;
+}            
 /* Блок-список НП */
-#my{
+.nav__list{
     display: flex; 
     list-style: none;
     gap: 40px;
 }
 
-.item_link{  /* Шрифт списка в НП */
+.nav .nav__content ul li a{  /* Шрифт списка в НП */
     text-decoration: none;
     color: #1E1928;
     font-family: Roboto,serif;
@@ -54,7 +62,7 @@ header{
     line-height: 20px;
 }
 /* Эфект вращения */
-header nav ul li:hover{ 
+header .nav ul li:hover{ 
     transform: rotate(360deg);
     transition: 0.3s;
 }
