@@ -16,19 +16,57 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     
     <title>Empaty</title>
 </head>
 <body>
-<header>  <!-- Верхняя шапка с навигацией -->
-    <div class="container">  <!-- <Блок внутри шапки> --> 
-        <a href="#"><!-- Логотип "empaty" -->
+    
+    <!-- Mobile menu -->
+    <header>
+		<div class="header_content">
+			<a href="#" class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </a>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>
+            <nav class="nav">
+                <div class="nav__content">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="#" class="hover-target">About</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Learn</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Partner</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">COVID-19</a></li>
+                    </ul>
+                </div>
+            </nav>						
+		</div>				
+	</header>
+
+		
+   
+
+<!-- Link to page
+================================================== -->
+
+<!-- Mobile menu -->
+    
+    
+    <!-- Родная шапка с навигацией -->
+<!-- <header>  
+    <div class="container">  
+        <a href="#">
             <img src="images/logo.svg" alt="logo">
         </a>
-        <nav class="navig">  <!-- <Навигационная панель> -->
-            <ul id="my">  <!-- <Список НП> -->
+        <nav class="navig">  
+            <ul id="my">  
                 <li  class="my_li_marginleft">
                     <a href="#" class="item_link">About</a>
                 </li>
@@ -41,10 +79,11 @@
                 <li class="my_li_marginleft">
                     <a href="#" class="item_link">COVID-19</a>
                 </li>
-            </ul> <!-- <Список НП> -->
-        </nav>  <!-- <Навигационная панель> -->
-    </div>   <!-- <Блок внутри шапки> -->
-</header>   <!-- Верхняя шапка с навигацией -->
+            </ul> 
+        </nav>  
+    </div>   
+</header> -->
+<!-- Родная шапка с навигацией -->
 <main >
     <!-- Первая секция -->
     <section class="section-1">
