@@ -16,6 +16,22 @@
     }
 
 .nav{
+  .header_content{
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+/* header .container{ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  /* margin-bottom: 80px;} */
+
+/* Блок-список НП */
+.navig{
   padding-top: 10px;
 }         
 
@@ -326,14 +342,14 @@ background: #1E1928
 /* <!-- 5 секция --> */
 
 @media screen and (max-width: 767px) {
-  header{
-    position: 
-  }
+
   .header_content{
+    
     padding: 15px;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    z-index: 100;
     }
   .nav-but-wrap{
       z-index: 100;
@@ -365,6 +381,7 @@ background: #1E1928
           transform: translateX(100%) translateY(-100%);
 }
 .nav:after {
+  
 	background: rgba(9,9,12,1);
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
