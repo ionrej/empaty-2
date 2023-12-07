@@ -71,7 +71,7 @@ header .nav ul li:hover{
 
 /* Первая секция */
 .section-1{
-    padding-bottom: 196px;
+    padding-bottom: 150px;
     padding-top: 80px;
 }
 /* Левый блок секции с формой регистрации */
@@ -80,7 +80,9 @@ header .nav ul li:hover{
 }
 .imagefam{
     display: block; 
-    width: 100%;   
+    width: 100%; 
+    margin-top: 80px;
+    z-index: -1;  
 }
 /* Заголовок */
 .section-1 .hard_enough h1{ 
@@ -191,7 +193,7 @@ header .nav ul li:hover{
     left: calc(50% - 600px);    
 }
  /* Контент белого блока */
-    .how-it h2{
+ .section-2 .freeblock h4{
         color: #1E1928;    
         text-align: center;
         font-family: Roboto;
@@ -231,7 +233,7 @@ header .nav ul li:hover{
 
 
 
-.section-2 h2{/* How it works */
+.section-2 .how-it h2{/* How it works */
     color: #1E1928;
     font-family: Roboto;
     font-size: 48px;

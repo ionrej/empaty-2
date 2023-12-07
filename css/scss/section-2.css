@@ -1,0 +1,204 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 270px;
+  padding-bottom: 44px;
+  background-color: #FFD394;
+  background-image: url("../images/serybely.png");
+  background-position: bottom -241px left 0px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.section-2 .freeblock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 80px 0px;
+  background: #fff;
+  position: absolute;
+  top: -190px;
+  left: calc(50% - 600px);
+}
+.section-2 .freeblock h4 {
+  color: #1E1928;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+.section-2 .freeblock p {
+  max-width: 653px;
+  margin: auto;
+  margin-bottom: 28px;
+  color: rgba(30, 25, 40, 0.8);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.section-2 .freeblock a {
+  text-decoration: none;
+  padding: 10px 33px;
+  border: 1px solid #1E1928;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  color: #1E1928;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section-2 .how-it {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.section-2 .how-it h2 {
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+}
+.section-2 .how-it .rightlist {
+  list-style: none;
+  margin-bottom: 42px;
+  max-width: 566px;
+  color: #1E1928;
+  font-family: interregular;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.section-2 .how-it .rightlist li .first-paragraph {
+  margin-top: 4px;
+  margin-left: 64px;
+  margin-bottom: 32px;
+  color: rgba(30, 25, 40, 0.8);
+  font-family: interregular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;
+}
+.section-2 .how-it .rightlist li .second-paragraph {
+  margin-top: 4px;
+  margin-left: 64px;
+  margin-bottom: 38px;
+  color: rgba(30, 25, 40, 0.8);
+  font-family: interregular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;
+}
+.section-2 .how-it .rightlist li .third-paragraph {
+  margin-top: 4px;
+  margin-left: 64px;
+  color: rgba(30, 25, 40, 0.8);
+  font-family: interregular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.176px;
+}
+.section-2 .how-it .rightlist li:before {
+  display: inline-flex;
+  justify-content: center;
+  content: "1";
+  background-color: black;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.252px;
+}
+.section-2 .how-it .rightlist li:nth-child(2):before {
+  display: inline-flex;
+  justify-content: center;
+  content: "2";
+  background-color: black;
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.section-2 .how-it .rightlist li:nth-child(3):before {
+  display: inline-flex;
+  justify-content: center;
+  content: "3";
+  background-color: black;
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.section-2 .how-it .rightlist li:nth-child(3):before {
+  display: inline-flex;
+  justify-content: center;
+  content: "3";
+  background-color: black;
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}/*# sourceMappingURL=section-2.css.map */

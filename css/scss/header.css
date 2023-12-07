@@ -1,0 +1,30 @@
+header {
+  padding: 40px 0;
+}
+header .logo {
+  z-index: 100;
+}
+header .header_content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .header_content .nav .nav__content .nav__list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+header .header_content .nav .nav__content .nav__list ul li a {
+  text-decoration: none;
+  color: #1E1928;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+header .header_content .nav .nav__content .nav__list ul li:hover {
+  transform: rotate(360deg);
+  transition: 0.3s;
+}/*# sourceMappingURL=header.css.map */
