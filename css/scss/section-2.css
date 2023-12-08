@@ -1,3 +1,22 @@
+.section-2 .how-it .rightlist li:nth-child(3):before, .section-2 .how-it .rightlist li:nth-child(2):before, .section-2 .how-it .rightlist li:before {
+  display: inline-flex;
+  justify-content: center;
+  background-color: black;
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  color: #EDE6DD;
+  text-align: center;
+  font-family: interregular;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -104,9 +123,9 @@
   letter-spacing: 0.176px;
 }
 .section-2 .how-it .rightlist li .second-paragraph {
+  margin-bottom: 38px;
   margin-top: 4px;
   margin-left: 64px;
-  margin-bottom: 38px;
   color: rgba(30, 25, 40, 0.8);
   font-family: interregular;
   font-size: 14px;
@@ -127,78 +146,11 @@
   letter-spacing: 0.176px;
 }
 .section-2 .how-it .rightlist li:before {
-  display: inline-flex;
-  justify-content: center;
   content: "1";
-  background-color: black;
-  margin-right: 20px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 144.444% */
-  letter-spacing: 0.252px;
 }
 .section-2 .how-it .rightlist li:nth-child(2):before {
-  display: inline-flex;
-  justify-content: center;
   content: "2";
-  background-color: black;
-  margin-right: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0.252px;
 }
 .section-2 .how-it .rightlist li:nth-child(3):before {
-  display: inline-flex;
-  justify-content: center;
   content: "3";
-  background-color: black;
-  margin-right: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0.252px;
-}
-.section-2 .how-it .rightlist li:nth-child(3):before {
-  display: inline-flex;
-  justify-content: center;
-  content: "3";
-  background-color: black;
-  margin-right: 24px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  align-items: center;
-  color: #EDE6DD;
-  text-align: center;
-  font-family: interregular;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0.252px;
 }/*# sourceMappingURL=section-2.css.map */

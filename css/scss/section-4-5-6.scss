@@ -1,0 +1,185 @@
+
+.container{    
+  max-width: 1200px;
+  margin: auto; 
+  display: flex;
+  justify-content: space-between; 
+  }
+.section-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #F4EFE9;
+  text-align: center;
+  padding: 144px 0px 302px 0px;
+      .mazeh4{
+        color: #1E1928;
+        
+        /* Шрифт */
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px; /* 152.941% */
+        letter-spacing: 0.252px;
+      }
+      .icons-block.owl-carousel{
+  
+        margin:80px 0px;
+        img{
+          height: 160px; 
+        }
+        
+      }
+      .icons-block.owl-carousel.owl-drag.owl-loaded .owl-item{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+      .See_Full_Library{
+        text-decoration: none;
+        padding: 10px 33px;
+        border: 1px solid #1E1928;
+        border-radius: 9999px;
+        background: #F4EFE9;
+        text-align: center;
+      /* Шрифт */
+        color: #1E1928;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+      }
+  }
+.section-5{ 
+      
+  padding: 305px 0px;
+  background-color: #592141;    
+  position: relative;
+  .whiteblock2{
+  
+    display: flex;
+    border-radius: 8px;    
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;    
+    justify-content: center;
+    align-items: center;
+    background: #fff;    
+    position: absolute;
+    top: -158px;
+    left: calc(50% - 600px);
+    padding: 80px;
+    .wbcontent{
+      max-width: 672px;
+      .security{
+        color: #1E1928;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        }
+        .empaty{
+          margin-top: 28px;
+          
+            color: rgba(30, 25, 40, 0.80);
+            text-align: center;
+            font-family: Inter;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 176.471% */
+            letter-spacing: 0.252px;
+            
+        }
+    }
+    .Users_block{
+      .users{
+        color: #F4EFE9;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.252px;
+          &:after{
+            width: 41px;
+            height: 74px;
+            margin: auto;
+            padding-top: 26px;
+            content: "“";
+            display: block;
+            
+            color: #F4EFE9;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 96px;
+            }
+      }
+      .feel{   
+        color: #F4EFE9;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        }
+        .roger{
+        margin-top: 32px;
+        color: #F4EFE9;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        }
+    }
+  }
+}
+
+/* Секция газеты */
+.newspapers{
+background-color: #EDE6DD;
+.papers_presentation{
+  text-align: center;
+  padding-top: 144px;
+  padding-bottom: 256px;
+    h5{
+      color: #1E1928;
+    
+      text-align: center;
+      font-family: Roboto;
+      font-size: 31px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 42px;   
+    }
+    .newspapers_list{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+        img{
+          margin-top: 64px;    
+          border-radius: 8px;
+          background-color: rgba(30, 25, 40, 0.08);
+          width: 288px;
+          height: 144px;
+          padding: 24px 29px;
+        }
+    }
+  }   
+}
+
+

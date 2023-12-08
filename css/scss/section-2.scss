@@ -1,23 +1,23 @@
 $numb-color:#EDE6DD;
-// %marker {
-//               display: inline-flex;
-//               justify-content: center;
-//               background-color: black;    
-//               margin-right: 24px; 
-//               width: 40px;
-//               height: 40px;
-//               border-radius: 50%;
-//               align-items: center;
-//               color: $numb-color;
-//               text-align: center;
-//               font-family: interregular;
-//               font-size: 18px;
-//               font-style: normal;
-//               font-weight: 400;
-//               line-height: 26px; 
-//               letter-spacing: 0.252px;
-//         }
-.container{    
+%marker {
+              display: inline-flex;
+              justify-content: center;
+              background-color: black;    
+              margin-right: 24px; 
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              align-items: center;
+              color: $numb-color;
+              text-align: center;
+              font-family: interregular;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 26px; 
+              letter-spacing: 0.252px;
+        }
+.container{
   max-width: 1200px;
   margin: auto; 
   display: flex;
@@ -120,9 +120,9 @@ $numb-color:#EDE6DD;
             letter-spacing: 0.176px;   
             }
             .second-paragraph{
-              margin-top: 4px;
-              margin-left: 64px;
               margin-bottom: 38px;
+              margin-top: 4px;
+              margin-left: 64px;              
               color: rgba(30, 25, 40, 0.80);
               font-family: interregular;
               font-size: 14px;
@@ -143,81 +143,18 @@ $numb-color:#EDE6DD;
               letter-spacing: 0.176px;   
             }
             &:before{
-              display: inline-flex;
-              justify-content: center;
+              @extend %marker;
               content:"1";
-              background-color: black;    
-              margin-right: 20px; 
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              align-items: center;
-              color: $numb-color;
-              text-align: center;
-              font-family: interregular;
-              font-size: 18px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 26px; /* 144.444% */
-              letter-spacing: 0.252px;
               
             }
             &:nth-child(2):before{
-              display: inline-flex;
-              justify-content: center;
+              @extend %marker;
               content:"2";
-              background-color: black;    
-              margin-right: 24px; 
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              align-items: center;
-              color: $numb-color;
-              text-align: center;
-              font-family: interregular;
-              font-size: 18px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 26px; 
-              letter-spacing: 0.252px;
             }
+            
             &:nth-child(3):before{
-              display: inline-flex;
-              justify-content: center;
+              @extend %marker;
               content:"3";
-              background-color: black;    
-              margin-right: 24px; 
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              align-items: center;
-              color: $numb-color;
-              text-align: center;
-              font-family: interregular;
-              font-size: 18px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 26px; 
-              letter-spacing: 0.252px;
-            }
-            &:nth-child(3):before{
-              display: inline-flex;
-              justify-content: center;
-              content:"3";
-              background-color: black;    
-              margin-right: 24px; 
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              align-items: center;
-              color: $numb-color;
-              text-align: center;
-              font-family: interregular;
-              font-size: 18px;
-              font-style: normal;
-              font-weight: 400;
-              line-height: 26px; 
-              letter-spacing: 0.252px;
             }
           }
       }

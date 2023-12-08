@@ -1,0 +1,141 @@
+.longsection {
+  display: flex;
+  justify-content: center;
+  background-color: #F4EFE9;
+}
+.longsection .block0 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-content: space-around;
+  max-width: 1280px;
+  padding: 0 40px;
+}
+.longsection .block0 .container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.longsection .block0 .container1 .built {
+  text-align: right;
+}
+.longsection .block0 .container1 .built h3 {
+  margin-bottom: 24px;
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.longsection .block0 .container1 .built p {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.longsection .block0 .container1 .Standing {
+  text-align: left;
+  /* margin-left: 29px;*/
+}
+.longsection .block0 .container1 .Standing h3 {
+  margin-bottom: 24px;
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.longsection .block0 .container1 .Standing p {
+  text-align: left;
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.longsection .block0 .container1 .Easily-track {
+  text-align: right;
+}
+.longsection .block0 .container1 .Easily-track h3 {
+  margin-bottom: 24px;
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+.longsection .block0 .container1 .Easily-track p {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.longsection .block0 .container1 .smartphone-block {
+  min-width: 600px;
+}
+.longsection .block0 .container1 .Paper {
+  min-width: 600px;
+}
+.longsection .block0 .container1 .Paper .Paperwork {
+  text-align: left;
+}
+.longsection .block0 .container1 .Paper .Paperwork h4 {
+  margin-bottom: 24px;
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+.longsection .block0 .container1 .Paper .Paperwork p {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+.longsection .block0 .container1 Listen-in {
+  text-align: right;
+}
+.longsection .block0 .container1 Listen-in h4 {
+  margin-bottom: 24px;
+  color: #1E1928;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+.longsection .block0 .container1 Listen-in p {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 176.471% */
+  letter-spacing: 0.252px;
+}
+.longsection .block0 .container1 Listen-in .play2, .longsection .block0 .container1 Listen-in .play {
+  display: none;
+}
+.longsection .block0 .container1 .Listen-block {
+  min-width: 600px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=longsection.css.map */

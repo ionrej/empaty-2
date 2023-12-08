@@ -545,6 +545,12 @@ line-height: 42px; /* 131.25% */
     margin:80px 0px;
     
 } 
+.icons-block.owl-carousel.owl-drag.owl-loaded .owl-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .icons-block img{
     height: 160px; 
 }
@@ -701,11 +707,7 @@ padding-bottom: 256px;
 /* Карусель */
 
     
-.icons-block.owl-carousel.owl-drag.owl-loaded .owl-item{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
+
 
 .faq{
     padding: 100px;
@@ -737,10 +739,7 @@ color: rgba(30, 25, 40, 0.80);
     line-height: 30px;
     letter-spacing: 0.252px;
 }
-.faq .ui-accordion .ui-accordion-header{
-    /* text-align: right; */
-    
-}
+
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
     color: black;
     border-top: 2px solid black;
@@ -766,17 +765,13 @@ color: rgba(30, 25, 40, 0.80);
     line-height: 30px;
     letter-spacing: 0.252px;
 }
-.faq .ui-accordion h3{
 
-}
 
 .faq .ui-accordion .ui-accordion-content.ui-widget-content-active p{    
 margin-bottom: 5px;    
     }
 .faq .ui-accordion .ui-accordion-content.ui-widget-content:nth-child(4){
 max-height: 120px;    
-}
-.faq .ui-widget{
 }
 
 .element.style {
@@ -816,15 +811,4 @@ background-image: none;
 .faq .ui-accordion .ui-icon-triangle-1-e{
 background-image: none;
 }
-/* .faq .ui-accordion .ui-accordion-header .ui-icon:before{
-    display: inline-flex;    
-    content:"V";
-    background-image: url('../images/expand.svg');
-    background-repeat: no-repeat;
-    color: black;
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    right: 15px;
-    z-index: 6;
-} */
+
