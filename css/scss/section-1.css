@@ -4,6 +4,15 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 431px) {
+  .container {
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .section-1 {
   padding-bottom: 150px;

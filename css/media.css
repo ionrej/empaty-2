@@ -17,10 +17,10 @@ header {
         margin: auto;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        
         align-items: center;
     }  
-.nav{
+/* .nav{
 .header_content{      
       margin: auto;
       display: flex;
@@ -29,7 +29,7 @@ header {
 .navig{
   padding-top: 10px;
   }         
-  }
+  } */
   
   
   /* Первая секция */

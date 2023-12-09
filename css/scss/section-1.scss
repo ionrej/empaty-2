@@ -1,4 +1,8 @@
-
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 $font-f:'interregular';
 $art-p-color:rgba(30, 25, 40, 0.80);
 $h1-child4-backg:#1E1928;
@@ -6,7 +10,15 @@ $h1-child4-backg:#1E1928;
   max-width: 1200px;
   margin: auto; 
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  
+  @include max-screen(431px){
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .section-1{
   padding-bottom: 150px;

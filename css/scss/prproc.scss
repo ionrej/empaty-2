@@ -3,7 +3,11 @@
 @import "mobile_menu.css";
 @import "style.css";
 
-
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 
 @font-face {
@@ -27,7 +31,7 @@ body{
   background-color: #EDE6DD;
 }
 
-
+// @import "max-screen";
 @import "header";
 @import "section-1";
 @import "section-2";

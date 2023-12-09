@@ -10,10 +10,19 @@ header .header_content {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 431px) {
+  header .header_content {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+}
 header .header_content .nav .nav__content .nav__list {
   display: flex;
+  flex-direction: column;
   list-style: none;
-  gap: 40px;
+  gap: 10px;
 }
 header .header_content .nav .nav__content .nav__list ul li a {
   text-decoration: none;
@@ -27,4 +36,10 @@ header .header_content .nav .nav__content .nav__list ul li a {
 header .header_content .nav .nav__content .nav__list ul li:hover {
   transform: rotate(360deg);
   transition: 0.3s;
+}
+@media screen and (max-width: 431px) {
+  header {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
 }/*# sourceMappingURL=header.css.map */
