@@ -33,6 +33,14 @@ $numb-color:#EDE6DD;
   background-position: bottom -241px left 0px;
   background-repeat: no-repeat;
   position: relative;
+  @include max-screen(431px){
+    display: flex;      
+    flex-direction: column;
+    padding-top: unset; 
+    padding-bottom: unset; 
+    background-color: #FFD394;
+    background-image: unset;
+  }
   .freeblock{
     display: flex;
     align-items: center;

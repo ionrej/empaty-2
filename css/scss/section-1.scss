@@ -6,13 +6,33 @@
 $font-f:'interregular';
 $art-p-color:rgba(30, 25, 40, 0.80);
 $h1-child4-backg:#1E1928;
+%hard_e_media_h{
+color: #1E1928;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 58px;
+margin-bottom: 15px;
+}
+%hrd_e_p{
+margin-bottom: 0px;
+color: rgba(30, 25, 40, 0.80);
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 200;
+line-height: 20px;
+letter-spacing: 0.252px;
+}
+
 .container{    
   max-width: 1200px;
   margin: auto; 
   display: flex;
   justify-content: space-between;
   
-  @include max-screen(431px){
+  @include max-screen(431px) {
     padding: 15px;
     margin: auto;
     display: flex;
@@ -23,6 +43,11 @@ $h1-child4-backg:#1E1928;
 .section-1{
   padding-bottom: 150px;
   padding-top: 80px;
+  @include max-screen(431px) {
+    padding-bottom: 110px;
+    padding-top: 20px;
+    position: relative;
+  }
   .section-1 .container {
     .imagefam{
       display: block; 
@@ -31,6 +56,7 @@ $h1-child4-backg:#1E1928;
     }
           hard_enough{
           max-width: 549px;
+          
           h1{ 
             color: $h1-child4-backg;
             font-family: Roboto;
@@ -39,6 +65,9 @@ $h1-child4-backg:#1E1928;
             font-weight: 400;
             line-height: 58px;
             margin-bottom: 24px;
+            @include max-screen(431px) {
+              @extend %hard_e_media_h;
+            }
           }
             p{
               margin-bottom: 4px;
@@ -49,6 +78,10 @@ $h1-child4-backg:#1E1928;
               font-weight: 400;
               line-height: 30px;
               letter-spacing: 0.252px;
+              @include max-screen(431px) {
+                @extend %hrd_e_p;
+                margin-bottom: 0px;
+              }
                 &:nth-child(3){
                   max-width: 549px;
                   margin-bottom: 24px;
@@ -59,6 +92,7 @@ $h1-child4-backg:#1E1928;
                   font-weight: 400;
                   line-height: 30px;
                   letter-spacing: 0.252px;
+                  
                 }
                 &:nth-child(4){
                   color: $h1-child4-backg;
@@ -77,6 +111,11 @@ $h1-child4-backg:#1E1928;
               display: flex; 
               max-width: 448px; 
               justify-content: space-between;
+              @include max-screen(431px) {
+                position: absolute;
+                bottom: 25px;
+                right: 24px;
+              }
                   input{
                     width: 180px;
                     border: none;
@@ -101,7 +140,11 @@ $h1-child4-backg:#1E1928;
                     font-weight: 400px;
                     line-height: 20px;
                   }
+              }
+              @include max-screen(431px) {
+                max-width: 430px;
+                text-align: justify;
+              }
             }
-    }
   }
 }

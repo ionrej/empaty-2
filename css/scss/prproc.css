@@ -3,6 +3,7 @@
 @import "owl.theme.default.css";
 @import "mobile_menu.css";
 @import "style.css";
+@import "media.css";
 @font-face {
   font-family: "interregular";
   src: url("../fonts/inter-regular-webfont.eot");
@@ -18,61 +19,6 @@
 
 body {
   background-color: #EDE6DD;
-}
-
-header {
-  padding: 40px 0;
-}
-header .logo {
-  z-index: 100;
-}
-header .header_content {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-@media screen and (max-width: 431px) {
-  header .header_content {
-    text-align: center;
-    margin: auto;
-    display: flex;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 431px) {
-  header .header_content .nav header_content {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  header .header_content .nav .navig {
-    padding-top: 10px;
-  }
-}
-header .header_content .nav .nav__content .nav__list {
-  display: flex;
-  list-style: none;
-  gap: 40px;
-}
-header .header_content .nav .nav__content .nav__list ul li a {
-  text-decoration: none;
-  color: #1E1928;
-  font-family: Roboto, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-header .header_content .nav .nav__content .nav__list ul li:hover {
-  transform: rotate(360deg);
-  transition: 0.3s;
-}
-@media screen and (max-width: 431px) {
-  header {
-    padding-top: 15px;
-    padding-bottom: 0px;
-  }
 }
 
 .container {
@@ -94,6 +40,13 @@ header .header_content .nav .nav__content .nav__list ul li:hover {
 .section-1 {
   padding-bottom: 150px;
   padding-top: 80px;
+}
+@media screen and (max-width: 431px) {
+  .section-1 {
+    padding-bottom: 110px;
+    padding-top: 20px;
+    position: relative;
+  }
 }
 .section-1 .section-1 .container .imagefam {
   display: block;
@@ -173,6 +126,12 @@ header .header_content .nav .nav__content .nav__list ul li:hover {
   font-style: normal;
   font-weight: 400px;
   line-height: 20px;
+}
+@media screen and (max-width: 431px) {
+  .section-1 .section-1 .container hard_enough {
+    max-width: 430px;
+    text-align: justify;
+  }
 }
 
 .section-2 .how-it .rightlist li:nth-child(3):before, .section-2 .how-it .rightlist li:nth-child(2):before, .section-2 .how-it .rightlist li:before {

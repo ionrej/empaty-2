@@ -18,6 +18,13 @@
   padding-bottom: 150px;
   padding-top: 80px;
 }
+@media screen and (max-width: 431px) {
+  .section-1 {
+    padding-bottom: 110px;
+    padding-top: 20px;
+    position: relative;
+  }
+}
 .section-1 .section-1 .container .imagefam {
   display: block;
   width: 100%;
@@ -73,6 +80,13 @@
   max-width: 448px;
   justify-content: space-between;
 }
+@media screen and (max-width: 431px) {
+  .section-1 .section-1 .container hard_enough .form-block {
+    position: absolute;
+    bottom: 25px;
+    right: 24px;
+  }
+}
 .section-1 .section-1 .container hard_enough .form-block input {
   width: 180px;
   border: none;
@@ -96,4 +110,10 @@
   font-style: normal;
   font-weight: 400px;
   line-height: 20px;
+}
+@media screen and (max-width: 431px) {
+  .section-1 .section-1 .container hard_enough {
+    max-width: 430px;
+    text-align: justify;
+  }
 }/*# sourceMappingURL=section-1.css.map */
