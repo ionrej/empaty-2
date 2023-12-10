@@ -1,18 +1,19 @@
-@import "owl.carousel.css";
-@import "owl.theme.default.css";
-@import "mobile_menu.css";
-@import "style.css";
+@import "../owl.carousel.css";
+@import "../owl.theme.default.css";
+@import "../mobile_menu.css";
+@import "../style.css";
+@import "../media.css";
 
 
 
 @font-face {
   font-family: 'interregular';
-  src: url('../fonts/inter-regular-webfont.eot');
-  src: url('../fonts/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/inter-regular-webfont.woff2') format('woff2'),
-       url('../fonts/inter-regular-webfont.woff') format('woff'),
-       url('../fonts/inter-regular-webfont.ttf') format('truetype'),
-       url('../fonts/inter-regular-webfont.svg#interregular') format('svg');
+  src: url('../../fonts/inter-regular-webfont.eot');
+  src: url('../../fonts/inter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../fonts/inter-regular-webfont.woff2') format('woff2'),
+       url('../../fonts/inter-regular-webfont.woff') format('woff'),
+       url('../../fonts/inter-regular-webfont.ttf') format('truetype'),
+       url('../../fonts/inter-regular-webfont.svg#interregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,6 +33,6 @@ body{
 @import "section-2";
 @import "longsection";
 @import "section-4-5-6";
-@import "media";
+
 
 
