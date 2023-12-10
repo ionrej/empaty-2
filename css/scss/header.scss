@@ -1,2 +1,51 @@
 
- 
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+header{ 
+  padding: 40px 0;
+  @include max-screen(431px) {
+    padding-top: 15px;
+      padding-bottom: 0px;
+  }
+  .header_content{
+    max-width: 1200px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include max-screen(431px) {
+      text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+    }
+    .logo{
+      z-index: 100;
+    }
+    .nav{
+      .nav__content{
+        ul{
+          li{
+            &:hover{ 
+              transform: rotate(360deg);
+              transition: 0.3s;
+            }
+            }
+            .hover-target{
+              text-decoration: none;
+              color: #1E1928;
+              font-family: Roboto,serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+    }
+  }

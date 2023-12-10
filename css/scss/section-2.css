@@ -1,4 +1,4 @@
-.section-2 .how-it .rightlist li:nth-child(3):before, .section-2 .how-it .rightlist li:nth-child(2):before, .section-2 .how-it .rightlist li:before {
+.how-it .rightlist li:nth-child(3):before, .how-it .rightlist li:nth-child(2):before, .how-it .rightlist li:before {
   display: inline-flex;
   justify-content: center;
   background-color: black;
@@ -30,69 +30,103 @@
   padding-top: 270px;
   padding-bottom: 44px;
   background-color: #FFD394;
-  background-image: url("../images/serybely.png");
+  background-image: url("../../images/serybely.png");
   background-position: bottom -241px left 0px;
   background-repeat: no-repeat;
   position: relative;
 }
-@in .freeblock {
+@media screen and (max-width: 431px) {
   .section-2 {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    max-width: 1200px;
-    border-radius: 8px;
-    width: 100%;
-    padding: 80px 0px;
-    background: #fff;
-    position: absolute;
-    top: -190px;
-    left: calc(50% - 600px);
-  }
-  .section-2 h4 {
-    color: #1E1928;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 42px;
-  }
-  .section-2 p {
-    max-width: 653px;
-    margin: auto;
-    margin-bottom: 28px;
-    color: rgba(30, 25, 40, 0.8);
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.252px;
-  }
-  .section-2 a {
-    text-decoration: none;
-    padding: 10px 33px;
-    border: 1px solid #1E1928;
-    border-radius: 9999px;
-    background: #FFFFFF;
-    color: #1E1928;
-    text-align: center;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
+    padding-top: unset;
+    padding-bottom: unset;
+    background-color: #FFD394;
+    background-image: unset;
   }
 }
-.section-2 .how-it {
+.section-2 .freeblock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 80px 0px;
+  background: #fff;
+  position: absolute;
+  top: -190px;
+  left: calc(50% - 600px);
+}
+@media screen and (max-width: 431px) {
+  .section-2 .freeblock {
+    padding: 25px 5px;
+    border-radius: unset;
+    background: #fff;
+    position: unset;
+  }
+}
+.section-2 h4 {
+  color: #1E1928;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+.section-2 p {
+  max-width: 653px;
+  margin: auto;
+  margin-bottom: 28px;
+  color: rgba(30, 25, 40, 0.8);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.252px;
+}
+@media screen and (max-width: 431px) {
+  .section-2 p {
+    padding: 15px;
+    text-align: justify;
+    width: 100%;
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.section-2 a {
+  text-decoration: none;
+  padding: 10px 33px;
+  border: 1px solid #1E1928;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  color: #1E1928;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.how-it {
   max-width: 1200px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.section-2 .how-it h2 {
+@media screen and (max-width: 431px) {
+  .how-it {
+    display: unset;
+    justify-content: unset;
+    padding: 15px;
+  }
+}
+.how-it h2 {
   color: #1E1928;
   font-family: Roboto;
   font-size: 48px;
@@ -100,7 +134,14 @@
   font-weight: 700;
   line-height: 58px;
 }
-.section-2 .how-it .rightlist {
+@media screen and (max-width: 431px) {
+  .how-it h2 {
+    color: #1E1928;
+    text-align: unset;
+    margin-bottom: 15px;
+  }
+}
+.how-it .rightlist {
   list-style: none;
   margin-bottom: 42px;
   max-width: 566px;
@@ -112,7 +153,14 @@
   line-height: 26px;
   letter-spacing: 0.252px;
 }
-.section-2 .how-it .rightlist li .first-paragraph {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist {
+    llist-style: none;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+.how-it .rightlist li .first-paragraph {
   margin-top: 4px;
   margin-left: 64px;
   margin-bottom: 32px;
@@ -124,7 +172,15 @@
   line-height: 24px;
   letter-spacing: 0.176px;
 }
-.section-2 .how-it .rightlist li .second-paragraph {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li .first-paragraph {
+    max-width: 500px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 45px;
+  }
+}
+.how-it .rightlist li .second-paragraph {
   margin-bottom: 38px;
   margin-top: 4px;
   margin-left: 64px;
@@ -136,7 +192,14 @@
   line-height: 24px;
   letter-spacing: 0.176px;
 }
-.section-2 .how-it .rightlist li .third-paragraph {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li .second-paragraph {
+    margin-left: 45px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+.how-it .rightlist li .third-paragraph {
   margin-top: 4px;
   margin-left: 64px;
   color: rgba(30, 25, 40, 0.8);
@@ -147,12 +210,38 @@
   line-height: 24px;
   letter-spacing: 0.176px;
 }
-.section-2 .how-it .rightlist li:before {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li .third-paragraph {
+    margin-left: 45px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+.how-it .rightlist li:before {
   content: "1";
 }
-.section-2 .how-it .rightlist li:nth-child(2):before {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li:before {
+    font-size: 18px;
+    margin-right: 0px;
+  }
+}
+.how-it .rightlist li:nth-child(2):before {
   content: "2";
 }
-.section-2 .how-it .rightlist li:nth-child(3):before {
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li:nth-child(2):before {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+}
+.how-it .rightlist li:nth-child(3):before {
   content: "3";
+}
+@media screen and (max-width: 431px) {
+  .how-it .rightlist li:nth-child(3):before {
+    color: #EDE6DD;
+    margin-right: 5px;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=section-2.css.map */

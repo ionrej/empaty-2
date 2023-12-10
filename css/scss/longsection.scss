@@ -1,4 +1,8 @@
-
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 
 .longsection{
   display: flex;   
@@ -11,10 +15,20 @@
     align-content: space-around;
     max-width: 1280px;
     padding: 0 40px;
+    @include max-screen(431px) {
+      gap: 20px;
+    width: 100%;
+    padding: 0 0px;
+    }
     .container1{   
       display: flex;
       align-items: center;
       justify-content: space-around;
+      @include max-screen(431px) {
+        display: unset;
+    align-items: unset;
+    justify-content: unset;
+      }
     
     .built{
       text-align: right;
@@ -84,10 +98,18 @@
     }
     .smartphone-block{
       min-width: 600px;
+      .smartphone3{
+        @include max-screen(431) {
+          display: none;
+          }
+      }
       
       }
       .Paper{
         min-width: 600px;
+        @include max-screen(431) {
+          display: none;
+          }
         .Paperwork{
           text-align: left;
           h4{
@@ -110,7 +132,7 @@
           }                                            
         }
       }
-      Listen-in{
+      .Listen-in{
         text-align: right;
         h4{
           margin-bottom: 24px;
@@ -133,13 +155,26 @@
         .play2, .play{
             display: none;
           }
-      }
+        }
       .Listen-block{
         min-width: 600px;
         min-height: 600px;
         display: flex;
         align-items: center;
         justify-content: center;
+        @include max-screen(431) {
+          display: none;
+          }
+      }
+      .stand{
+        @include max-screen(431) {
+        display: none;
+        }
+      }
+      .Listen-block{
+        @include max-screen(431) {
+        display: none;
+        }
       }
     }
   }

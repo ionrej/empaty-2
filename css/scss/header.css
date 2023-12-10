@@ -1,1 +1,41 @@
-/*# sourceMappingURL=header.css.map */
+header {
+  padding: 40px 0;
+}
+@media screen and (max-width: 431px) {
+  header {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+}
+header .header_content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 431px) {
+  header .header_content {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+header .header_content .logo {
+  z-index: 100;
+}
+header .header_content .nav .nav__content ul li:hover {
+  transform: rotate(360deg);
+  transition: 0.3s;
+}
+header .header_content .nav .nav__content ul .hover-target {
+  text-decoration: none;
+  color: #1E1928;
+  font-family: Roboto, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}/*# sourceMappingURL=header.css.map */
