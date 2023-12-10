@@ -30,6 +30,7 @@ body{
     max-width: 1200px;
     margin: auto; 
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
  /* Универсальное свойство блока */
@@ -207,7 +208,7 @@ header .nav ul li:hover{
         
         margin-bottom: 28px;
         color: rgba(30, 25, 40, 0.80);    
-        text-align: center;
+        
         font-family: Inter;
         font-size: 18px;
         font-style: normal;

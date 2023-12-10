@@ -11,10 +11,24 @@
   max-width: 1280px;
   padding: 0 40px;
 }
+@media screen and (max-width: 431px) {
+  .longsection .block0 {
+    gap: 20px;
+    width: 100%;
+    padding: 0 0px;
+  }
+}
 .longsection .block0 .container1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+@media screen and (max-width: 431px) {
+  .longsection .block0 .container1 {
+    display: unset;
+    align-items: unset;
+    justify-content: unset;
+  }
 }
 .longsection .block0 .container1 .built {
   text-align: right;
@@ -84,8 +98,18 @@
 .longsection .block0 .container1 .smartphone-block {
   min-width: 600px;
 }
+@media screen and (max-width: 431) {
+  .longsection .block0 .container1 .smartphone-block .smartphone3 {
+    display: none;
+  }
+}
 .longsection .block0 .container1 .Paper {
   min-width: 600px;
+}
+@media screen and (max-width: 431) {
+  .longsection .block0 .container1 .Paper {
+    display: none;
+  }
 }
 .longsection .block0 .container1 .Paper .Paperwork {
   text-align: left;
@@ -108,10 +132,10 @@
   line-height: 30px;
   letter-spacing: 0.252px;
 }
-.longsection .block0 .container1 Listen-in {
+.longsection .block0 .container1 .Listen-in {
   text-align: right;
 }
-.longsection .block0 .container1 Listen-in h4 {
+.longsection .block0 .container1 .Listen-in h4 {
   margin-bottom: 24px;
   color: #1E1928;
   font-family: Roboto;
@@ -120,7 +144,7 @@
   font-weight: 700;
   line-height: 42px; /* 131.25% */
 }
-.longsection .block0 .container1 Listen-in p {
+.longsection .block0 .container1 .Listen-in p {
   color: rgba(30, 25, 40, 0.8);
   font-family: Inter;
   font-size: 17px;
@@ -129,7 +153,7 @@
   line-height: 30px; /* 176.471% */
   letter-spacing: 0.252px;
 }
-.longsection .block0 .container1 Listen-in .play2, .longsection .block0 .container1 Listen-in .play {
+.longsection .block0 .container1 .Listen-in .play2, .longsection .block0 .container1 .Listen-in .play {
   display: none;
 }
 .longsection .block0 .container1 .Listen-block {
@@ -138,4 +162,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (max-width: 431) {
+  .longsection .block0 .container1 .Listen-block {
+    display: none;
+  }
+}
+@media screen and (max-width: 431) {
+  .longsection .block0 .container1 .stand {
+    display: none;
+  }
+}
+@media screen and (max-width: 431) {
+  .longsection .block0 .container1 .Listen-block {
+    display: none;
+  }
 }/*# sourceMappingURL=longsection.css.map */

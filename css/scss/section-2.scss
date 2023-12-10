@@ -1,3 +1,9 @@
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 $numb-color:#EDE6DD;
 %marker {
               display: inline-flex;
@@ -29,11 +35,11 @@ $numb-color:#EDE6DD;
   padding-top: 270px; 
   padding-bottom: 44px; 
   background-color: #FFD394;
-  background-image: url('../images/serybely.png');
+  background-image: url('../../images/serybely.png');
   background-position: bottom -241px left 0px;
   background-repeat: no-repeat;
   position: relative;
-  @include max-screen(431px){
+  @include max-screen(431px) {
     display: flex;      
     flex-direction: column;
     padding-top: unset; 
@@ -53,6 +59,13 @@ $numb-color:#EDE6DD;
     position: absolute;
     top: -190px;
     left: calc(50% - 600px);
+    @include max-screen(431px) {
+      padding: 25px 5px;
+    border-radius: unset;
+    background: #fff;                    
+    position: unset;
+  }
+    }
       h4{
         color: #1E1928;    
         text-align: center;
@@ -66,14 +79,21 @@ $numb-color:#EDE6DD;
           margin: auto;
           
           margin-bottom: 28px;
-          color: rgba(30, 25, 40, 0.80);    
-          text-align: center;
+          color: rgba(30, 25, 40, 0.80);            
           font-family: Inter;
           font-size: 18px;
           font-style: normal;
           font-weight: 400;
           line-height: 30px;
           letter-spacing: 0.252px;
+          @include max-screen(431px) {
+            padding: 15px;
+              text-align: justify;
+              width: 100%;
+              margin: unset;
+              margin-top: 10px;
+              margin-bottom: 10px;
+          }
         }
         a{
           text-decoration: none;                                           
@@ -95,13 +115,24 @@ $numb-color:#EDE6DD;
       width: 100%;
       display: flex;
       justify-content: space-between;
+      @include max-screen(431px) {
+        display: none;
+        width: 100%;
+        justify-content: unset;
+        padding: 15px;
+      }
       h2{
         color: #1E1928;
         font-family: Roboto;
         font-size: 48px;
         font-style: normal;
         font-weight: 700;
-        line-height: 58px;   
+        line-height: 58px;
+        @include max-screen(431px ){
+          color: #1E1928;    
+          text-align: unset;
+          margin-bottom: 15px; 
+        }   
       }
       .rightlist{ 
         list-style: none;
@@ -114,6 +145,11 @@ $numb-color:#EDE6DD;
         font-weight: 700;
         line-height: 26px; 
         letter-spacing: 0.252px;
+        @include max-screen(431px) {
+          llist-style: none;
+          margin-bottom: 10px;
+          width: 100%;
+        }
           li{
             .first-paragraph{
             margin-top: 4px;
@@ -125,7 +161,13 @@ $numb-color:#EDE6DD;
             font-style: normal;
             font-weight: 400;
             line-height: 24px;
-            letter-spacing: 0.176px;   
+            letter-spacing: 0.176px;
+            @include max-screen(431px) {
+              max-width: 500px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+            }   
             }
             .second-paragraph{
               margin-bottom: 38px;
@@ -137,7 +179,12 @@ $numb-color:#EDE6DD;
               font-style: normal;
               font-weight: 400;
               line-height: 24px;
-              letter-spacing: 0.176px;   
+              letter-spacing: 0.176px;
+              @include max-screen(431px) {
+                margin-left: 45px;
+    font-size: 15px;
+    margin-bottom: 10px;
+              }  
             }
             .third-paragraph{
               margin-top: 4px;
@@ -148,23 +195,40 @@ $numb-color:#EDE6DD;
               font-style: normal;
               font-weight: 400;
               line-height: 24px;
-              letter-spacing: 0.176px;   
+              letter-spacing: 0.176px;
+              @include max-screen(431px) {
+                margin-left: 45px;  
+                font-size: 15px;
+                margin-bottom: 10px;
+              }  
             }
             &:before{
               @extend %marker;
               content:"1";
+              @include max-screen(431px) {
+                font-size: 18px;
+    margin-right: 0px;
+              }
               
             }
             &:nth-child(2):before{
               @extend %marker;
               content:"2";
+              @include max-screen(431px) {
+                margin-right: 5px;
+    font-size: 18px;
+              }
             }
             
             &:nth-child(3):before{
               @extend %marker;
               content:"3";
+              @include max-screen(431px) {
+                color: #EDE6DD;
+    margin-right: 5px;    
+    font-size: 18px;
+              }
             }
           }
       }
     }
-}
