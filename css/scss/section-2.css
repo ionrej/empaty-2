@@ -77,8 +77,15 @@
 }
 .section-2 p {
   max-width: 653px;
+<<<<<<< HEAD
   margin-bottom: 28px;
   color: rgba(30, 25, 40, 0.8);
+=======
+  margin: auto;
+  margin-bottom: 28px;
+  color: rgba(30, 25, 40, 0.8);
+  text-align: center;
+>>>>>>> ed8035df5b5e12b410279a7c2ba63e621e0d0543
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -119,8 +126,12 @@
 }
 @media screen and (max-width: 431px) {
   .how-it {
+<<<<<<< HEAD
     display: none;
     width: 100%;
+=======
+    display: unset;
+>>>>>>> ed8035df5b5e12b410279a7c2ba63e621e0d0543
     justify-content: unset;
     padding: 15px;
   }
