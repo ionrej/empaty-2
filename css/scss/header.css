@@ -19,7 +19,7 @@ header .header_content {
     text-align: center;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 }

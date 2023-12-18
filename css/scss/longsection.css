@@ -33,6 +33,11 @@
 .longsection .block0 .container1 .built {
   text-align: right;
 }
+@media screen and (max-width: 431px) {
+  .longsection .block0 .container1 .built {
+    text-align: center;
+  }
+}
 .longsection .block0 .container1 .built h3 {
   margin-bottom: 24px;
   color: #1E1928;
@@ -54,6 +59,11 @@
 .longsection .block0 .container1 .Standing {
   text-align: left;
   /* margin-left: 29px;*/
+}
+@media screen and (max-width: 431px) {
+  .longsection .block0 .container1 .Standing {
+    text-align: center;
+  }
 }
 .longsection .block0 .container1 .Standing h3 {
   margin-bottom: 24px;
@@ -77,6 +87,11 @@
 .longsection .block0 .container1 .Easily-track {
   text-align: right;
 }
+@media screen and (max-width: 431px) {
+  .longsection .block0 .container1 .Easily-track {
+    text-align: center;
+  }
+}
 .longsection .block0 .container1 .Easily-track h3 {
   margin-bottom: 24px;
   color: #1E1928;
@@ -98,10 +113,8 @@
 .longsection .block0 .container1 .smartphone-block {
   min-width: 600px;
 }
-@media screen and (max-width: 431) {
-  .longsection .block0 .container1 .smartphone-block .smartphone3 {
-    display: none;
-  }
+.longsection .block0 .container1 .smartphone-block .smartphone3 .play2, .longsection .block0 .container1 .smartphone-block .smartphone3 .play {
+  display: unset;
 }
 .longsection .block0 .container1 .Paper {
   min-width: 600px;
@@ -135,6 +148,11 @@
 .longsection .block0 .container1 .Listen-in {
   text-align: right;
 }
+@media screen and (max-width: 431px) {
+  .longsection .block0 .container1 .Listen-in {
+    text-align: center;
+  }
+}
 .longsection .block0 .container1 .Listen-in h4 {
   margin-bottom: 24px;
   color: #1E1928;
@@ -153,10 +171,7 @@
   line-height: 30px; /* 176.471% */
   letter-spacing: 0.252px;
 }
-.longsection .block0 .container1 .Listen-in .play2, .longsection .block0 .container1 .Listen-in .play {
-  display: none;
-}
-.longsection .block0 .container1 .Listen-block {
+.longsection .block0 .container1 .contaner1 .Listen-block {
   min-width: 600px;
   min-height: 600px;
   display: flex;
@@ -164,17 +179,17 @@
   justify-content: center;
 }
 @media screen and (max-width: 431) {
-  .longsection .block0 .container1 .Listen-block {
+  .longsection .block0 .container1 .contaner1 .Listen-block {
     display: none;
   }
 }
 @media screen and (max-width: 431) {
-  .longsection .block0 .container1 .stand {
+  .longsection .block0 .container1 .contaner1 .stand {
     display: none;
   }
 }
 @media screen and (max-width: 431) {
-  .longsection .block0 .container1 .Listen-block {
+  .longsection .block0 .container1 .contaner1 .Listen-in {
     display: none;
   }
 }/*# sourceMappingURL=longsection.css.map */

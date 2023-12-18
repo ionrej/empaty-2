@@ -238,6 +238,13 @@
   padding-top: 144px;
   padding-bottom: 256px;
 }
+@media screen and (max-width: 431px) {
+  .newspapers .papers_presentation {
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .newspapers .papers_presentation h5 {
   color: #1E1928;
   text-align: center;
