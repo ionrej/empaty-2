@@ -549,4 +549,50 @@
   font-weight: 400;
   line-height: 20px; /* 142.857% */
   text-decoration: none;
+}
+.footer .Broadway {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+.footer .Broadway .Broadway_content {
+  margin-top: 114px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .Broadway .Broadway_content .gender p {
+  max-width: 665px;
+  color: rgba(30, 25, 40, 0.64);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.084px;
+}
+.footer .Broadway .Broadway_content .platform {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+.footer .down_content {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .down_content p:first-child {
+  color: rgba(30, 25, 40, 0.64);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.footer .down_content:nth-child(2) {
+  color: rgba(30, 25, 40, 0.64);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }/*# sourceMappingURL=section-4-5-6.css.map */
