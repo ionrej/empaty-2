@@ -463,6 +463,11 @@
   background-color: #FFFFFF;
   padding: 80px 120px;
 }
+@media screen and (max-width: 431px) {
+  .footer {
+    padding: unset;
+  }
+}
 .footer .container {
   width: 100%;
   display: flex;
@@ -526,13 +531,24 @@
   text-decoration: none;
 }
 .footer .container .wides {
+  margin-top: 30px;
   background-color: #FFF;
+  text-align: center;
 }
 .footer .container .wides ul {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
   gap: 16px;
+}
+@media screen and (max-width: 431px) {
+  .footer .container .wides ul {
+    display: inline-flex;
+    width: 258px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+  }
 }
 .footer .container .wides ul li {
   list-style: none;
@@ -567,6 +583,18 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 431px) {
+  .footer .Broadway .Broadway_content {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .footer .Broadway .Broadway_content .gender {
+    margin-bottom: 10px;
+  }
+}
 .footer .Broadway .Broadway_content .gender p {
   max-width: 665px;
   color: rgba(30, 25, 40, 0.64);
@@ -581,6 +609,12 @@
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
+}
+@media screen and (max-width: 431px) {
+  .footer .Broadway .Broadway_content .platform {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 .footer .down_content {
   margin-top: 16px;

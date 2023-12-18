@@ -450,6 +450,10 @@ letter-spacing: 0.084px;
     flex-direction: column;
     background-color: #FFFFFF;
     padding: 80px 120px;
+    @include max-screen(431px) {
+      padding: unset;
+    
+    }
     
     .container{
       width: 100%;
@@ -533,12 +537,22 @@ line-height: 24px;
         }        
       }
       .wides{
+        margin-top: 30px;
         background-color: #FFF;
+        text-align: center;
         ul{
           display: inline-flex;
         justify-content: space-around;
         align-items: center;
         gap: 16px;
+        @include max-screen(431px) {
+          display: inline-flex;
+        width: 258px;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
+        
+        }
 
           li{
             &:first-of-type{
@@ -571,11 +585,22 @@ line-height: 24px;
       margin: auto;
       width: 100%;
       
+      
       .Broadway_content{
         margin-top: 114px;
         display: flex;
         justify-content: space-between;
+        @include max-screen(431px) {
+          text-align: center;
+          display: block;
+          margin-top: 20px;
+        
+        }
         .gender{
+          @include max-screen(431px) {
+            margin-bottom: 10px;
+          
+          }
           p{
           max-width: 665px;
           color: rgba(30, 25, 40, 0.64);
@@ -587,6 +612,11 @@ line-height: 24px;
           letter-spacing: 0.084px; }
         }
       .platform{
+        @include max-screen(431px) {
+         margin-bottom: 10px;
+         margin-top: 10px;
+        
+        }
         display: flex;
         justify-content: space-evenly;
         gap: 16px;        
